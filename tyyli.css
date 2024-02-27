@@ -1,5 +1,5 @@
 body {
-    background-color: #ffff; /*#97c1a7*/
+    background-color: #ffff;
     
 }
 
@@ -56,7 +56,7 @@ body {
     }
   }
 
-h1 {
+h1,h2 {
     font-family: "Rosario";
 }
 
