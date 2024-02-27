@@ -48,6 +48,12 @@ body {
     display: table;
     clear: both;
   }
+
+  .footer {
+    background-color: #004749;
+    text-align: center;
+    padding: 10px;
+  }
   
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
   @media screen and (max-width:600px) {
