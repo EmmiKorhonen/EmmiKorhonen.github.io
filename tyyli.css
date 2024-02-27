@@ -1,5 +1,5 @@
 body {
-    background-color: #ffff; /*#97c1a7*/
+    background-color: #0000;
     
 }
 
@@ -9,7 +9,7 @@ body {
 
 .header {
     background-color: #97c1a7;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
 }
 
