@@ -1,8 +1,40 @@
 body {
-    background-color: #97c1a7;
-    
+    background-color: #ffff; /*#97c1a7*/
     
 }
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #97c1a7;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #2f824f;
+  }
+  
+  /* Style the topnav links jos laitay ne linkit siis tänne*/
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover eli mikä väri jos oot linkin päällä*/
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
 h1 {
     font-family: "Rosario";
 }
