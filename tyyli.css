@@ -1,3 +1,18 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <meta name="googlebot" content="noindex">
+    <link rel="stylesheet" href="tyyli.css">
+    <link href="https://fonts.googleapis.com/css?family=Rosario" rel="stylesheet"/>
+    <link href='https://fonts.googleapis.com/css?family=Libre Franklin' rel='stylesheet'>
+    <meta keywords="Taekwondo Liminka">
+    <title>Tenava Taekwondo Liminka</title>
+</head>
+<body>
+<style>
 body, html {
   margin: 0;
   padding: 0;
@@ -20,15 +35,16 @@ footer{
   height: calc(100% - 120px); /* Vähennä headerin ja footerin korkeus */
 }
 .text-container, .image-container {
-  flex: 1;
   padding: 20px;
   overflow: auto;
 }
 .text-container {
   background-color: white;
+  flex: 1; /* Laajenee ja kutistuu joustavasti */
 }
 .image-container {
   position: relative; /* Mahdollistaa alt-tekstin sijoittamisen */
+  flex: 1; /* Laajenee ja kutistuu joustavasti */
 }
 .image-container img {
   max-width: 100%;
@@ -48,13 +64,92 @@ footer{
   font-size: 14px;
   text-align: center;
 }
+h1,h2 {
+  font-family: "Rosario";
+}
+p {
+  font-family: 'Libre Franklin';
+}
+</style>
+    <header>
+        <h1>Tenava Taekwondo!</h1>
+    </header>
+    <div class="container">
+        <div class="text-container">
+            <h2>Tervetuloa tenava taekwondoon!</h2>
+            <p>Kauan odotettu 7-12-vuotiaiden taekwondoryhmä starttaa vihdoin Limingalla! Tutustu tarkemmin ja ilmoita lapsesi mukaan kokemaan liikunnan riemua!</p>
+        </div>
+        <div class="image-container">
+            <img src="https://images.interactives.dk/smilende-froe-paa-traestamme-fotograferet-lang-teleobjektiv-sjovt-dyrefoto-eB4g_mjs1G8anPB7ZJUXXA.jpg?auto=compress&ch=Width%2CDPR&dpr=2.63&h=480&ixjsv=2.2.4&q=38&rect=18%2C0%2C963%2C667" alt="Iloisesti taekwondoa harjoitteleva lapsi nauraa lyodessään ilmaa.">
+        </div>
+    </div>
+    <footer>
+        <p>Footer</p>
+    </footer>
+</body>
+</html>
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
+
+
+
+/*body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+header{
+  background-color: #97c1a7;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+footer{
+  background-color: #004749;
+  color: white;
+  text-align: center;
+  padding: 20px 0;  
+}
+.container {
+  display: flex;
+  height: calc(100% - 120px); /* Vähennä headerin ja footerin korkeus 
+}
+.text-container, .image-container {
+  flex: 1;
+  padding: 20px;
+  overflow: auto;
+}
+.text-container {
+  background-color: white;
+}
+.image-container {
+  position: relative; /* Mahdollistaa alt-tekstin sijoittamisen 
+}
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Keskittää kuvan 
+}
+.image-container::after {
+  content: attr(alt); /* Näyttää img-elementin alt-tekstin 
+  position: absolute;
+  bottom: 10px; /* Säädä sijaintia tarvittaessa 
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Aseta taustaväri ja läpinäkyvyys 
+  color: white;
+  padding: 5px;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other 
 @media screen and (max-width:600px) {
   .column {
     width: 100%;
   }
-}
+} 
 
 h1,h2 {
   font-family: "Rosario";
@@ -63,7 +158,7 @@ h1,h2 {
 p {
   font-family: 'Libre Franklin';
 }
-
+*/
 /*
 body, html {
   margin: 0;
