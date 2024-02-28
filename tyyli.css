@@ -32,7 +32,7 @@ footer{
   flex: 1; /* Laajenee ja kutistuu joustavasti */
 }
 .image-container img {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
   display: block;
   margin: 0 auto; /* Keskittää kuvan */
