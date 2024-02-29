@@ -18,15 +18,12 @@ header{
   background-color: #97c1a7;
   color: #2d4629;
   text-align: center;
-  padding: 25px 0;
+  padding: 20px 0;
   margin: 0; /*Lisätty margin*/
-  outline-style: solid;
-  outline-color: #2f824f;
-  outline-width: 24px;
 
   /*TESTI HEADERIN PYÖRISTYS*/
   width:105%;
-  height:15%;
+  height:17%;
   left:-3%;
   position:absolute;
   border-top-left-radius:10px;
@@ -68,7 +65,7 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 100px 0;
+  margin: 0;
 }
 
 .image-container img {
@@ -84,22 +81,3 @@ h1,h2 {
 p {
   font-family: 'Libre Franklin';
 }
-
-/*.text-container, .image-container {
-  padding: 20px;
-  overflow: auto;
-}
-.text-container {
-  background-color: white;
-  flex: 1; /* Laajenee ja kutistuu joustavasti
-}
-.image-container {
-  position: relative; /* Mahdollistaa alt-tekstin sijoittamisen 
-  flex: 1; /* Laajenee ja kutistuu joustavasti
-}
-.image-container img {
-  max-width: 75%;
-  height: auto;
-  display: block;
-  margin: 0 auto; /* Keskittää kuvan 
-}*/
