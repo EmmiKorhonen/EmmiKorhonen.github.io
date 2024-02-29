@@ -20,6 +20,9 @@ header{
   text-align: center;
   padding: 20px 0;
   margin: 0; /*Lisätty margin*/
+  outline-style: solid; /*Lisätty reunus*/
+  outline-color: #2f824f;
+  outline-width: 24px;
 
   /*TESTI HEADERIN PYÖRISTYS*/
   width:105%;
