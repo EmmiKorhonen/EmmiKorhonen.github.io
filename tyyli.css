@@ -18,7 +18,7 @@ header{
   background-color: #97c1a7;
   color: #2d4629;
   text-align: center;
-  padding: 20px 0;
+  padding: 25px 0;
   margin: 0; /*Lisätty margin*/
   outline-style: solid; /*Lisätty reunus*/
   outline-color: #2f824f;
@@ -26,7 +26,7 @@ header{
 
   /*TESTI HEADERIN PYÖRISTYS*/
   width:105%;
-  height:17%;
+  height:15%;
   left:-3%;
   position:absolute;
   border-top-left-radius:10px;
