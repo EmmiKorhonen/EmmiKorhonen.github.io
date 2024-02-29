@@ -25,15 +25,13 @@ header{
   outline-width: 24px;
 
   /*TESTI HEADERIN PYÖRISTYS*/
-  width:105%;
+  width:100%; /* Muutettu leveys 105%:sta 100%:iin */
   height:15%;
-  left:-3%;
-  position:absolute;
+  position:relative; /* Muutettu absoluuttisesta suhteelliseksi */
   border-top-left-radius:10px;
   border-top-right-radius:10px;
   border-bottom-left-radius: 50% 20%;
   border-bottom-right-radius: 50% 20%;
-
 }
 footer{
   background-color: #004749;
@@ -53,9 +51,88 @@ footer{
   flex: 1;
   display: flex;
   align-items: stretch;
-  margin: 0; /*Uusi osio testissä*/
+  margin-top: -100px; /* Lisätty negatiivinen margin-top */
 }
 .text-container { /*Tästä eteenpäin uusi testiosio*/
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+}
+
+.image-container {
+  flex: 1;
+  background-color: lightgray; /* Korvaa halutulla taustavärillä */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h1,h2 {
+  font-family: "Rosario";
+}
+p {
+  font-family: 'Libre Franklin';
+}
+ 
+ /*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+
+
+header{
+  background-color: #97c1a7;
+  color: #2d4629;
+  text-align: center;
+  padding: 25px 0;
+  margin: 0; /*Lisätty margin*
+  outline-style: solid; /*Lisätty reunus*
+  outline-color: #2f824f;
+  outline-width: 24px;
+
+  /*TESTI HEADERIN PYÖRISTYS*
+  width:105%;
+  height:15%;
+  left:-3%;
+  position:absolute;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+
+}
+footer{
+  background-color: #004749;
+  color: white;
+  text-align: center;
+  padding: 20px 0;  
+  margin: 0; /*Lisätty margin*
+}
+.container {
+  display: flex;
+  /* Alkuperäinen koodiheight: calc(100% - 120px); Vähennä headerin ja footerin korkeus *
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+}
+.content {
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+  margin: 0; /*Uusi osio testissä*
+}
+.text-container { /*Tästä eteenpäin uusi testiosio*
   flex: 1;
   background-color: white;
   padding: 20px;
@@ -64,7 +141,7 @@ footer{
 
 .image-container {
   flex: 1;
-  background-color: lightgray; /* Korvaa halutulla taustavärillä */
+  background-color: lightgray; /* Korvaa halutulla taustavärillä *
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,4 +160,4 @@ h1,h2 {
 }
 p {
   font-family: 'Libre Franklin';
-}
+} */
