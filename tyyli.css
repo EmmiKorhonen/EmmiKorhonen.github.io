@@ -47,15 +47,6 @@ header nav a:hover {
 }
 
 
-footer {
-  grid-area: footer;
-  background-color: #004749;
-  color: white;
-  text-align: center;
-  padding: 20px 0;
-  margin: 0;
-}
-
 .container {
   display: grid;
   grid-template-rows: auto 1fr auto; /* Ensimmäinen rivi automaattisesti, toinen täyttää tilan, kolmas automaattisesti */
@@ -118,12 +109,42 @@ h2 {
   margin-bottom: 10px;
 }
 
-footer p {
+footer {
+  grid-area: footer;
+  background-color: #004749;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin: 0;
+}
+
+
+/*footer p {
   font-family: 'Libre Franklin';
   font-size: 17px;
   color: #e9f4d6;
   text-align: left;
   margin-left: 90px;
+} */
+
+.footer-column {
+  width: 33.33%; /* Jaa footerin leveys kolmanneksiin */
+  float: left; /* Aseta sarakkeet vierekkäin */
+  padding: 20px; /* Lisää sisätilaa sarakkeille */
+  box-sizing: border-box; /* Ota huomioon padding leveyttä laskettaessa */
+}
+
+.footer-column h2 {
+  color: white;
+}
+
+.footer-column p, .footer-column a {
+  color: #e9f4d6;
+  text-decoration: none;
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
 }
 
 
