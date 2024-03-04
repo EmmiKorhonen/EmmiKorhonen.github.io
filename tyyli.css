@@ -130,6 +130,7 @@ footer p {
 .footer {
   display: flex;
   justify-content: space-around; /* Järjestää sarakkeet tasaisesti */
+  background-color: #004749;
 }
 
 .footer-column {
