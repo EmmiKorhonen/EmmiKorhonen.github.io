@@ -148,11 +148,6 @@ footer {
   text-decoration: underline;
 }
 
-.footer-text {
-  margin-left: -30px;
-}
-
-
 
 .button-container {
   display: flex;
@@ -175,79 +170,6 @@ footer {
   background-color: #83b27c; /* Vaihda taustaväri hover-tilassa */
 }
 
-
-
-
-
-
-
-
-/* Lisätään taustalle himmeä peitto */
-.overlay {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  top: 0;
-  left: 0;
-  z-index: 999;
-  display: none;
-}
-
-/* Lomake piilotettu oletuksena */
-.popup-form {
-  display: none;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  z-index: 1000;
-}
-
-/* Näytetään lomake, kun se on auki */
-.popup-form.active {
-  display: block;
-}
-
-/* Lisätään otsikko */
-.popup-form h2 {
-  text-align: center;
-}
-
-/* Lisätään marginaali elementtien väliin */
-.popup-form .form-group {
-  margin-bottom: 10px;
-}
-
-/* Lisätään tyyliä lomakekentille */
-.popup-form input[type="text"],
-.popup-form input[type="email"],
-.popup-form input[type="tel"],
-.popup-form textarea {
-  width: 100%;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  margin-top: 5px;
-}
-
-/* Lisätään tyyliä lähettäjänappulalle */
-.popup-form input[type="submit"] {
-  background-color: #2f824f;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.popup-form input[type="submit"]:hover {
-  background-color: #83b27c;
-}
 
 
 
