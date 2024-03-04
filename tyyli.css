@@ -109,17 +109,16 @@ h2 {
   margin-bottom: 10px;
 }
 
-/*footer {
+footer {
   grid-area: footer;
   background-color: #004749;
-  color: white;
   text-align: center;
   padding: 20px 0;
   margin: 0;
 }
 
 
-footer p {
+/*footer p {
   font-family: 'Libre Franklin';
   font-size: 17px;
   color: #e9f4d6;
@@ -127,14 +126,9 @@ footer p {
   margin-left: 90px;
 } */
 
-.footer {
-  display: flex;
-  justify-content: space-around; /* Järjestää sarakkeet tasaisesti */
-  background-color: #004749;
-}
-
 .footer-column {
-  flex: 1; /* Jokainen sarake jakaa tilan tasaisesti */
+  width: 33.33%; /* Jaa footerin leveys kolmanneksiin */
+  float: left; /* Aseta sarakkeet vierekkäin */
   padding: 20px; /* Lisää sisätilaa sarakkeille */
   box-sizing: border-box; /* Ota huomioon padding leveyttä laskettaessa */
 }
