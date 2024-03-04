@@ -136,7 +136,7 @@ footer p {
 .button-container {
   display: flex;
   justify-content: center;
-  margin-top: 20px; /* Säädä tarvittaessa */
+  margin-top: 30px; /* Säädä tarvittaessa */
 }
 
 .button {
