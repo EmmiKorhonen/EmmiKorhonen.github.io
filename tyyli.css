@@ -123,11 +123,11 @@ footer {
 
 /*JOS EI TOIMI; KOKEILE JEMMATA ALLA OLEVAT!!!!!!!!!!!!!!*/
 
-.footer-column {
-  width: 33.33%; /* Jaa footerin leveys kolmanneksiin */
-  float: left; /* Aseta sarakkeet vierekkäin */
-  padding: 20px; /* Lisää sisätilaa sarakkeille */
-  box-sizing: border-box; /* Ota huomioon padding leveyttä laskettaessa */
+/*.footer-column {
+  width: 33.33%; /* Jaa footerin leveys kolmanneksiin 
+  float: left; /* Aseta sarakkeet vierekkäin 
+  padding: 20px; /* Lisää sisätilaa sarakkeille 
+  box-sizing: border-box; /* Ota huomioon padding leveyttä laskettaessa 
   background-color: #004749;
 }
 
@@ -147,7 +147,7 @@ footer {
 
 footer-text {
   margin-left: -60px;
-}
+}*/
 
 .button-container {
   display: flex;
