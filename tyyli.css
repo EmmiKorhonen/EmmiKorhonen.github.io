@@ -141,10 +141,15 @@ footer {
 .footer-column p, .footer-column a {
   color: #e9f4d6;
   text-decoration: none;
+  font-family: 'Libre Franklin';
 }
 
 .footer-column a:hover {
   text-decoration: underline;
+}
+
+.footer-text {
+  margin-top: 10px;
 }
 
 
