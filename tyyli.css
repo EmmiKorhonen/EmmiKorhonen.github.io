@@ -148,6 +148,10 @@ footer {
   text-decoration: underline;
 }
 
+footer-text {
+  margin-left: -60px;
+}
+
 
 .button-container {
   display: flex;
