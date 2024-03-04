@@ -89,7 +89,7 @@ footer {
 }
 
 .image-container img {
-  width:100%
+  width:100%;
   max-width: 100%;
   max-height: 100%;
 }
@@ -125,6 +125,42 @@ footer p {
   text-align: left;
   margin-left: 90px;
 }
+
+
+
+
+
+
+
+/*TESTISSÄ PAINIKKEEN TEKEMINEN!!!!!!!!!!!!!!!!!!!!!!!*/
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Säädä tarvittaessa */
+}
+
+.button {
+  margin: 0 10px; /* Lisää hieman marginaalia nappien väliin */
+  padding: 10px 20px; /* Lisää sisätilaa nappien ympärille */
+  font-size: 16px; /* Määritä fonttikoko */
+  background-color: #2d4629; /* Määritä taustaväri */
+  color: white; /* Määritä tekstin väri */
+  border: none; /* Poista reunukset */
+  border-radius: 5px; /* Lisää reunan pyöristys */
+  cursor: pointer; /* Muuta kohdistimen tyyliksi osoitin */
+}
+
+.button:hover {
+  background-color: #83b27c; /* Vaihda taustaväri hover-tilassa */
+}
+
+
+
+
+
+
+
+
 
 /*@media only screen and (max-width: 775px) { TÄÄ ON SE KOHTA KUN KUVA  KUTISTUUS
   .content {
