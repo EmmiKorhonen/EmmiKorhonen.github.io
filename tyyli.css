@@ -131,6 +131,7 @@ footer {
   float: left; /* Aseta sarakkeet vierekkäin */
   padding: 20px; /* Lisää sisätilaa sarakkeille */
   box-sizing: border-box; /* Ota huomioon padding leveyttä laskettaessa */
+  background-color: #004749;
 }
 
 .footer-column h2 {
