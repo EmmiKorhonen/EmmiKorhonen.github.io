@@ -182,6 +182,18 @@ footer {
 
 
 
+/* Lisätään taustalle himmeä peitto */
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: none;
+}
+
 /* Lomake piilotettu oletuksena */
 .popup-form {
   display: none;
@@ -236,6 +248,7 @@ footer {
 .popup-form input[type="submit"]:hover {
   background-color: #83b27c;
 }
+
 
 
 
