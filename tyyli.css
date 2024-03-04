@@ -143,10 +143,10 @@ footer p {
   margin: 0 10px; /* Lisää hieman marginaalia nappien väliin */
   padding: 10px 20px; /* Lisää sisätilaa nappien ympärille */
   font-size: 16px; /* Määritä fonttikoko */
-  background-color: #2f824f; /* Määritä taustaväri */
+  background-color: #2f824f;
   color: white; /* Määritä tekstin väri */
   border: none; /* Poista reunukset */
-  border-radius: 5px; /* Lisää reunan pyöristys */
+  border-radius: 50px; /* Lisää reunan pyöristys */
   cursor: pointer; /* Muuta kohdistimen tyyliksi osoitin */
 }
 
