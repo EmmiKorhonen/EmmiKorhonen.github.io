@@ -91,7 +91,26 @@
   text-decoration: underline; /* Lisää alaviiva linkkien päälle hiiren ollessa päällä */
   
   }
-
+  
+  
+  
+  
+  
+  footer {
+  
+  grid-area: footer;
+  
+  background-color: #004749;
+  
+  color: white;
+  
+  text-align: center;
+  
+  padding: 20px 0;
+  
+  margin: 0;
+  
+  }
   
   
   
@@ -162,10 +181,9 @@
   
   .image-container img {
   
-
+  width:100%;
+  max-width: 100%;
   max-height: 100%;
-  max-width:100%;
-  width: 100%;
   
   }
   
@@ -217,16 +235,7 @@
   
   }
   
-footer {    
-  grid-area: footer;
-  background-color: #004749;
-  color: white;
-  text-align: center;
-  padding: 20px 0;  
-  margin: 0;
-    
-    }
-
+  
   
   footer p {
   
@@ -242,10 +251,6 @@ footer {
   
   }
   
-
-
-
-
   .button-container {
     display: flex;
     justify-content: center;
@@ -266,9 +271,6 @@ footer {
   .button:hover {
     background-color: #83b27c; /* Vaihda taustaväri hover-tilassa */
   }
-  
-
-
   
   
   /*@media only screen and (max-width: 775px) { TÄÄ ON SE KOHTA KUN KUVA KUTISTUUS
