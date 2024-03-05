@@ -3,9 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body, html {
   height: 100%;
 }
+
 header {
   grid-area: header;
   background-color: #97c1a7;
@@ -24,10 +26,12 @@ header {
   border-bottom-left-radius: 50% 20%;
   border-bottom-right-radius: 50% 20%;
 }
+
 header nav {
   display: flex;
   justify-content: center;
 }
+
 header nav a {
   margin: 0 10px; /* Lisää hieman marginaalia linkkien väliin */
   text-decoration: none;
@@ -36,22 +40,17 @@ header nav a {
   font-family: 'Libre Franklin', sans-serif; /* Lisää fontti navigointilinkkeihin */
   font-weight: bold; 
 }
+
 header nav a:hover {
   text-decoration: underline; /* Lisää alaviiva linkkien päälle hiiren ollessa päällä */
 }
-footer {
-  grid-area: footer;
-  background-color: #004749;
-  color: white;
-  text-align: center;
-  padding: 20px 0;
-  margin: 0;
-}
+
 .container {
   display: grid;
   grid-template-rows: auto 1fr auto; /* Ensimmäinen rivi automaattisesti, toinen täyttää tilan, kolmas automaattisesti */
   min-height: 100vh;
 }
+
 .content {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -59,6 +58,7 @@ footer {
   align-items: center;
   margin-top: -15px;
 }
+
 .text-container {
   background-color: white;
   padding: 20px;
@@ -68,6 +68,7 @@ footer {
   align-items: center; /* Keskittää tekstisisällön vaakasuunnassa */
   text-align: center; /*POISTA JOS TEKSTI MENEE VÄÄRÄLLÄ LAILLA KESKELLE!!!!!!!!!!!!!!!!*/
 }
+
 .image-container {
   background-color: lightgray;
   display: flex;
@@ -76,22 +77,25 @@ footer {
 }
 
 .image-container img {
-  width:100%
+  width:100% /*Tämä tässä on taktinen virhe. Jostain syystä koodi toimii halutulla tavalla vain, kun tämä virhe tapahtuu.*/
   max-width: 100%;
   max-height: 100%;
 }
+
 .text-container h1 {
   font-family: "Rosario";
   text-align: center;
   color: #2d4629;
   font-size: 70px;
 }
+
 .text-container p {
   margin-top: 55px; /* Lisää tilaa paragrafin yläpuolelle */
   font-family: 'Libre Franklin';
   color: #2d4629;
   font-size: 20px;
 }
+
 h2 {
   font-family: "Rosario";
   color: #83b27c;
@@ -100,19 +104,129 @@ h2 {
   margin-left: 80px;
   margin-bottom: 10px;
 }
+
+footer {
+  grid-area: footer;
+  background-color: #004749;
+  text-align: center;
+  padding: 20px 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-gap: 15px; /* Lisää tilaa sarakkeiden väliin */
+}
+.footer-column {
+  flex: 1; /* Jokainen sarakkeen leveys muuttuu joustavasti */
+  padding: 15px;
+  box-sizing: border-box;
+  background-color: #004749;
+  display: flex; /* Käytä flexboxia */
+  flex-direction: column; /* Aseta sisältö pystysuoraan */
+  justify-content: center; /* Keskittää sisällön pystysuunnassa */
+  align-items: center; /* Keskittää sisällön vaakasuunnassa */
+  
+}
+
+.kuva1 {
+  width: 80%;
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 200px; /* Esimerkiksi */
+  min-height: 150px; /* Esimerkiksi */
+}
+
+.kuva2 {
+  width: 50%;
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 200px; /* Esimerkiksi */
+  min-height: 150px;
+}
+
+
+
 footer p {
   font-family: 'Libre Franklin';
   font-size: 17px;
   color: #e9f4d6;
   text-align: left;
-  margin-left: 90px;
+  margin-left: 0px;
 }
+
+footer h2 {
+  font-family: 'Rosario';
+  font-size: 21px;
+  color: #83b27c;
+  margin-left: -60px;
+  text-align: left;
+}
+
+
+/*
+.footer-column {
+  width: 33.33%; /* Jaa footerin leveys kolmanneksiin 
+  float: left; /* Aseta sarakkeet vierekkäin 
+  padding: 20px; /* Lisää sisätilaa sarakkeille 
+  box-sizing: border-box; /* Ota huomioon padding leveyttä laskettaessa 
+  background-color: #004749;
+}
+
+.footer-column h2 {
+  color: white;
+}
+
+.footer-column p, .footer-column a {
+  color: #e9f4d6;
+  text-decoration: none;
+  font-family: 'Libre Franklin';
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
+}
+
+footer-text {
+  margin-left: -60px;
+}*/
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px; /* Säädä tarvittaessa */
+}
+
+.button {
+  margin: 0 10px; /* Lisää hieman marginaalia nappien väliin */
+  padding: 10px 20px; /* Lisää sisätilaa nappien ympärille */
+  font-size: 16px; /* Määritä fonttikoko */
+  background-color: #2f824f;
+  color: white; /* Määritä tekstin väri */
+  border: none; /* Poista reunukset */
+  border-radius: 50px; /* Lisää reunan pyöristys */
+  cursor: pointer; /* Muuta kohdistimen tyyliksi osoitin */
+}
+
+.button:hover {
+  background-color: #83b27c; /* Vaihda taustaväri hover-tilassa */
+}
+
+
+
+
+
+
+
+
 /*@media only screen and (max-width: 775px) { TÄÄ ON SE KOHTA KUN KUVA  KUTISTUUS
   .content {
       grid-template-columns: 1fr;
   }
+
+
+
   960px eteenpäin en halua, että teksti nousee lähelle headeriä
 } */
+
 @media only screen and (max-width: 780px) {
   .content {
       grid-template-columns: 1fr;
