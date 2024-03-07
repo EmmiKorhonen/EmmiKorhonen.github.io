@@ -69,6 +69,10 @@ header nav a:hover {
   text-align: center; /*POISTA JOS TEKSTI MENEE VÄÄRÄLLÄ LAILLA KESKELLE!!!!!!!!!!!!!!!!*/
 }
 
+.text-container a {
+  color: #2f824f;
+}
+
 .image-container {
   background-color: #2f824f;
   display: flex;
