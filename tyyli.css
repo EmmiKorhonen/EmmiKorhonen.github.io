@@ -92,6 +92,7 @@ header nav a:hover {
   font-size: 20px;
 }
 
+
 h2 {
   font-family: "Rosario";
   color: #83b27c;
@@ -100,6 +101,40 @@ h2 {
   margin-left: 80px;
   margin-bottom: 10px;
 }
+
+
+
+.yhteystiedot {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* Keskittää tekstisisällön vaakasuunnassa vasemmalle */
+  text-align: left; /* Säilytä tekstisisällön vasemmalle suuntautuva kohdistus */
+}
+
+.yhteystiedot h1 {
+  font-family: "Rosario";
+  text-align: center;
+  color: #2d4629;
+  font-size: 70px;
+}
+
+.yhteystiedot p {
+  margin-top: 55px; /* Lisää tilaa paragrafin yläpuolelle */
+  font-family: 'Libre Franklin';
+  color: #2d4629;
+  font-size: 20px;
+}
+
+.yhteystiedot h1, .yhteystiedot p {
+  margin-left: auto; /* Siirtää elementit oikealle */
+  margin-right: auto; /* Siirtää elementit vasemmalle */
+  text-align: left; /* Säilyttää tekstin vasemman reunan kohdistuksen */
+}
+
+
 
 footer {
   grid-area: footer;
@@ -226,6 +261,12 @@ footer h2 {
     margin-top: 20px; /* Lisää ylimääräinen marginaali paragrafin yläpuolelle */
   }
 
+
+  .yhteystiedot {
+    padding: 10px; /* Pienennä tekstisisällön sisätilaa */
+    margin-top: 50px;
+  }
+  
   .button-container {
     flex-direction: column; /* Aseta nappien kontaineri pystysuuntaan */
     align-items: center; /* Keskitä napit vaakasuunnassa */
@@ -270,9 +311,15 @@ footer h2 {
     margin-top: 50px;
     margin-left: -50px;
   }
+
+  .yhteystiedot {
+    padding: 10px; /* Pienennä tekstisisällön sisätilaa */
+    margin-top: 50px;
+    margin-left: -50px;
+  
+  }
+
 }
-
-
 
 @media only screen and (max-width: 630px) {
   .content {
@@ -284,6 +331,13 @@ footer h2 {
     margin-top: 50px;
     margin-left: -100px;
   }
+
+  .yhteystiedot {
+    padding: 10px; /* Pienennä tekstisisällön sisätilaa */
+    margin-top: 50px;
+    margin-left: -100px;
+  }
+
 }
 
 
@@ -298,6 +352,13 @@ footer h2 {
     margin-top: 50px;
     margin-left: -200px;
   }
+
+  .yhteystiedot {
+    padding: 10px; /* Pienennä tekstisisällön sisätilaa */
+    margin-top: 50px;
+    margin-left: -200px;
+  }
+
 }
 
 
@@ -331,6 +392,22 @@ footer h2 {
     font-size: 16px; /* Pienennä tekstin fonttikokoa */
     margin-top: 20px; /* Lisää ylimääräinen marginaali paragrafin yläpuolelle */
   }
+
+  .yhteystiedot {
+    padding: 10px; /* Pienennä tekstisisällön sisätilaa */
+    margin-top: 50px;
+    margin-left: -315px;
+  }
+
+  .yhteystiedot h1 {
+    font-size: 40px; /* Pienennä otsikon fonttikokoa */
+  }
+  
+  .yhteystiedot p {
+    font-size: 16px; /* Pienennä tekstin fonttikokoa */
+    margin-top: 20px; /* Lisää ylimääräinen marginaali paragrafin yläpuolelle */
+  }
+
 
   .button-container {
     flex-direction: column; /* Aseta nappien kontaineri pystysuuntaan */
