@@ -281,17 +281,16 @@ footer h2 {
   }
   
   .text-container {
-    padding: 10px; /* Pienennä tekstisisällön sisätilaa */
-    margin-top: 50px;
+    padding: 10px; /* Pienennä sisätilaa elementin ympärillä */
   }
 
   .text-container h1 {
-    font-size: 40px; /* Pienennä otsikon fonttikokoa */
+    font-size: 30px; /* Pienennä otsikon fonttikokoa */
   }
 
   .text-container p {
-    font-size: 16px; /* Pienennä tekstin fonttikokoa */
-    margin-top: 20px; /* Lisää ylimääräinen marginaali paragrafin yläpuolelle */
+    font-size: 14px; /* Pienennä tekstin fonttikokoa */
+    margin-top: 10px; /* Lisää ylimääräinen marginaali paragrafin yläpuolelle */
   }
 
 
