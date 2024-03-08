@@ -282,12 +282,11 @@ footer h2 {
   }
 
   .text-container h1 {
-    font-size: 30px; /* Pienennä otsikon fonttikokoa */
+    font-size: 42px; /* Pienennä otsikon fonttikokoa */
   }
 
   .text-container p {
-    font-size: 14px; /* Pienennä tekstin fonttikokoa */
-    margin-top: 10px; /* Lisää ylimääräinen marginaali paragrafin yläpuolelle */
+    font-size: 18px; /* Pienennä tekstin fonttikokoa */
   }
 
 
@@ -341,6 +340,14 @@ footer h2 {
     margin-left: -50px;
   }
 
+  .text-container h1 {
+    font-size: 42px; /* Pienennä otsikon fonttikokoa */
+  }
+
+  .text-container p {
+    font-size: 18px; /* Pienennä tekstin fonttikokoa */
+  }
+
   .yhteystiedot {
     padding: 10px; /* Pienennä tekstisisällön sisätilaa */
     margin-top: 50px;
@@ -363,6 +370,14 @@ footer h2 {
     padding: 10px; /* Pienennä tekstisisällön sisätilaa */
     margin-top: 50px;
     margin-left: -100px;
+  }
+
+  .text-container h1 {
+    font-size: 42px; /* Pienennä otsikon fonttikokoa */
+  }
+
+  .text-container p {
+    font-size: 18px; /* Pienennä tekstin fonttikokoa */
   }
 
   .yhteystiedot {
@@ -388,6 +403,14 @@ footer h2 {
     padding: 10px; /* Pienennä tekstisisällön sisätilaa */
     margin-top: 50px;
     margin-left: -200px;
+  }
+
+  .text-container h1 {
+    font-size: 40px; /* Pienennä otsikon fonttikokoa */
+  }
+
+  .text-container p {
+    font-size: 16px; /* Pienennä tekstin fonttikokoa */
   }
 
   .yhteystiedot {
@@ -423,7 +446,8 @@ footer h2 {
     padding: 10px; /* Pienennä tekstisisällön sisätilaa */
     margin-top: 50px;
     margin-left: -315px;
-    margin-right: 10px;
+    /*margin-right: 10px;*/
+    margin-left: -42%;
   }
 
   .text-container h1 {
