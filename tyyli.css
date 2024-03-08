@@ -162,6 +162,10 @@ footer {
   
 }
 
+.tkd2 {
+  display: none;
+}
+
 .kuva1 {
   width: 80%;
   max-width: 100%;
@@ -237,6 +241,15 @@ footer h2 {
   overflow: hidden;
   padding: 0px; /* Pienennä sisätilaa elementin ympärillä */
   }
+
+  .tkd1{
+    display: none;
+  }
+
+  .tkd2{
+    display: block;
+  }
+
 }
 
 
