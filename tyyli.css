@@ -279,6 +279,7 @@ footer h2 {
   
   .text-container {
     padding: 10px; /* Pienennä sisätilaa elementin ympärillä */
+    margin-top: 5%;
   }
 
   .text-container h1 {
