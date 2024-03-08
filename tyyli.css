@@ -425,7 +425,8 @@ footer h2 {
   .text-container {
     padding: 10px; /* Pienennä tekstisisällön sisätilaa */
     margin-top: 50px;
-    margin-left: -325px;
+    margin-left: -315px;
+    margin-right: 5px;
   }
 
   .text-container h1 {
@@ -440,7 +441,7 @@ footer h2 {
   .yhteystiedot {
     padding: 10px; /* Pienennä tekstisisällön sisätilaa */
     margin-top: 50px;
-    margin-left: -325px;
+    margin-left: -315px;
   }
 
   .yhteystiedot h1 {
