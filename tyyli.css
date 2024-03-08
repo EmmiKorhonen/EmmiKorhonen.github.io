@@ -151,6 +151,11 @@ footer {
   
 }
 
+.mobiili {
+  display: none;
+}
+
+
 .image-container {
   background-color: #2f824f;
   display: flex;
@@ -459,6 +464,16 @@ footer h2 {
     font-size: 14px; /* Pienennä tekstin fonttikokoa */
     margin-top: 10px; /* Lisää ylimääräinen marginaali paragrafin yläpuolelle */
   }
+
+
+  .kone {
+    display: none;
+  }
+
+  .mobiili {
+    display: block;
+  }
+
 
   .yhteystiedot {
     padding: 10px; /* Pienennä tekstisisällön sisätilaa */
