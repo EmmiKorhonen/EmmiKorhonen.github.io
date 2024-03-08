@@ -524,3 +524,16 @@ footer h2 {
   }
   
 }
+
+@media only screen and (max-width: 400px) {
+
+  .text-container h1 {
+      font-size: 25px; /* Pienennä otsikon fonttikokoa */
+  }
+  
+  .text-container p {
+      font-size: 9px; /* Pienennä tekstin fonttikokoa */
+      margin-top: 10px; /* Lisää ylimääräinen marginaali paragrafin yläpuolelle */
+  }
+
+}
