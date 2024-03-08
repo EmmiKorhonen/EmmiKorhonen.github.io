@@ -166,6 +166,10 @@ footer {
   display: none;
 }
 
+.yhteys2 {
+  display: none;
+}
+
 .kuva1 {
   width: 80%;
   max-width: 100%;
@@ -247,6 +251,14 @@ footer h2 {
   }
 
   .tkd2{
+    display: block;
+  }
+
+  .yhteys1{
+    display: none;
+  }
+
+  .yhteys2{
     display: block;
   }
 
