@@ -64,9 +64,9 @@ header nav a:hover {
   padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Keskittää tekstisisällön pystysuunnassa */
-  align-items: center; /* Keskittää tekstisisällön vaakasuunnassa */
-  text-align: center; /*POISTA JOS TEKSTI MENEE VÄÄRÄLLÄ LAILLA KESKELLE!!!!!!!!!!!!!!!!*/
+  justify-content: center; /* Keskittää tekstiä*/
+  align-items: center; /* Keskittää tekstiä*/
+  text-align: center; /*Keskittää tekstiä*/
 }
 
 .text-container a {
@@ -103,7 +103,7 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start; /* Keskittää tekstisisällön vaakasuunnassa vasemmalle */
-  text-align: left; /* Säilytä tekstisisällön vasemmalle suuntautuva kohdistus */
+  text-align: left; /* Siirrä vasemmalle*/
 }
 
 .yhteystiedot h1 {
@@ -121,9 +121,9 @@ h2 {
 }
 
 .yhteystiedot h1, .yhteystiedot p {
-  margin-left: auto; /* Siirtää elementit oikealle */
-  margin-right: auto; /* Siirtää elementit vasemmalle */
-  text-align: left; /* Säilyttää tekstin vasemman reunan kohdistuksen */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
 }
 
 
@@ -140,18 +140,18 @@ footer {
 }
 
 .footer-column {
-  flex: 1; /* Jokainen sarakkeen leveys muuttuu joustavasti */
+  flex: 1;
   padding: 15px;
   box-sizing: border-box;
   background-color: #004749;
   display: flex; /* Käytä flexboxia */
-  flex-direction: column; /* Aseta sisältö pystysuoraan */
-  justify-content: center; /* Keskittää sisällön pystysuunnassa */
-  align-items: center; /* Keskittää sisällön vaakasuunnassa */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   
 }
 
-.mobiili {
+.mobiili { /*Piilottaa osion tietokonenäkymässä*/
   display: none;
 }
 
@@ -164,27 +164,27 @@ footer {
   flex-direction: row;
 }
 
-.tkd2 {
+.tkd2 { /*Piilottaa osion tietokonenäkymässä*/
   display: none;
 }
 
-.yhteys2 {
+.yhteys2 { /*Piilottaa osion tietokonenäkymässä*/
   display: none;
 }
 
-.kuva1 {
+.kuva1 { /*logon säädöt*/
   width: 80%;
   max-width: 100%;
   max-height: 100%;
-  min-width: 200px; /* Esimerkiksi */
-  min-height: 150px; /* Esimerkiksi */
+  min-width: 200px;
+  min-height: 150px;
 }
 
-.kuva2 {
+.kuva2 { /*logon säädöt*/
   width: 50%;
   max-width: 100%;
   max-height: 100%;
-  min-width: 200px; /* Esimerkiksi */
+  min-width: 200px;
   min-height: 150px;
 }
 
@@ -210,22 +210,22 @@ footer h2 {
 .button-container {
   display: flex;
   justify-content: center;
-  margin-top: 30px; /* Säädä tarvittaessa */
+  margin-top: 30px;
 }
 
 .button {
   margin: 0 10px; /* Lisää hieman marginaalia nappien väliin */
   padding: 10px 20px; /* Lisää sisätilaa nappien ympärille */
-  font-size: 16px; /* Määritä fonttikoko */
+  font-size: 16px;
   background-color: #2f824f;
-  color: white; /* Määritä tekstin väri */
-  border: none; /* Poista reunukset */
-  border-radius: 50px; /* Lisää reunan pyöristys */
-  cursor: pointer; /* Muuta kohdistimen tyyliksi osoitin */
+  color: white;
+  border: none; /* Poistaa reunukset */
+  border-radius: 50px; /* Lisää reunaan pyöristyksen */
+  cursor: pointer; /* Muuttaa kursorin osoittimeksi, kun napin kohdalla */
 }
 
 .button:hover {
-  background-color: #83b27c; /* Vaihda taustaväri hover-tilassa */
+  background-color: #83b27c; /* Vaihtaa taustaväriä, kun kursori on napin päällä */
 }
 
 .copyright p{
@@ -245,11 +245,11 @@ footer h2 {
   margin-top: -15px;
   max-width: 100%;
   overflow: hidden;
-  padding: 0px; /* Pienennä sisätilaa elementin ympärillä */
+  padding: 0px; 
   }
 
   .text-container {
-    padding: 10px; /* Pienennä sisätilaa elementin ympärillä */
+    padding: 10px; 
     margin-top: 5%;
   }
 
@@ -274,17 +274,17 @@ footer h2 {
 
 @media only screen and (max-width: 780px) {
   .content {
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr; /*Muuttaa sivuston näyttämään yhden "laatikon" kerrallaan*/
   }
 
   header nav {
-    flex-wrap: wrap; /* Salli navigointipainikkeiden rivinvaihto */
+    flex-wrap: wrap; /* Sallii navigointipainikkeiden rivinvaihdon */
     justify-content: center; /* Keskitä navigointipainikkeet vaakasuunnassa */
   }
 
   header nav a:nth-child(3),
   header nav a:nth-child(4) {
-    order: 2; /* Aseta "Harjoitusajat" ja "Yhteystiedot" painikkeet toiselle riville */
+    order: 2; /* Asettaa "Harjoitusajat" ja "Yhteystiedot" painikkeet toiselle riville */
   }
 
   .text-container h1 {
@@ -302,9 +302,9 @@ footer h2 {
   }
   
   .button-container {
-    flex-direction: column; /* Aseta nappien kontaineri pystysuuntaan */
-    align-items: center; /* Keskitä napit vaakasuunnassa */
-    margin-top: 20px; /* Lisää ylimääräinen ylämarginaali napin alle */
+    flex-direction: column; /* Asetaa nappien "kontainerin" pystysuuntaan */
+    align-items: center;
+    margin-top: 20px;
   }
 
   .button {
@@ -312,9 +312,9 @@ footer h2 {
   }
 
   footer {
-    grid-template-columns: 1fr; /* Aseta sarakkeiden lukumääräksi yksi pylväs */
-    grid-template-rows: auto auto auto; /* Aseta rivien lukumääräksi kolme ja niiden korkeudet automaattisiksi */
-    text-align: center; /* Keskitä tekstisisältö vaakasuunnassa */
+    grid-template-columns: 1fr; /* Asettaa footerin sisällön tolpaksi */
+    grid-template-rows: auto auto auto; /* Asettaa rivien määräksi 3 ja niiden korkeudet automaattisiksi */
+    text-align: center;
   }
 
   .footer-column {
@@ -439,8 +439,8 @@ footer h2 {
   }
 
   header nav {
-    flex-wrap: wrap; /* Salli navigointipainikkeiden rivinvaihto */
-    justify-content: center; /* Keskitä navigointipainikkeet vaakasuunnassa */
+    flex-wrap: wrap; /* Sallii navigointipainikkeiden rivinvaihto */
+    justify-content: center; 
   }
 
   header nav a:nth-child(3),
@@ -451,8 +451,6 @@ footer h2 {
   .text-container {
     padding: 10px; /* Pienennä tekstisisällön sisätilaa */
     margin-top: 50px;
-    /*margin-left: -315px;
-    /*margin-right: 10px;*/
     margin-left: -42%;
   }
 
@@ -494,7 +492,7 @@ footer h2 {
   .button-container {
     flex-direction: column; /* Aseta nappien kontaineri pystysuuntaan */
     align-items: center; /* Keskitä napit vaakasuunnassa */
-    margin-top: 20px; /* Lisää ylimääräinen ylämarginaali napin alle */
+    margin-top: 20px; /* Lisää ylämarginaali napin alle */
   }
 
   .button {
@@ -502,7 +500,7 @@ footer h2 {
   }
 
   footer {
-    grid-template-columns: 1fr; /* Aseta sarakkeiden lukumääräksi yksi pylväs */
+    grid-template-columns: 1fr;
     grid-template-rows: auto auto auto; /* Aseta rivien lukumääräksi kolme ja niiden korkeudet automaattisiksi */
     text-align: center; /* Keskitä tekstisisältö vaakasuunnassa */
   }
