@@ -459,7 +459,7 @@ footer h2 {
   }
 
   .text-container p {
-    font-size: 16px; /* Pienennä tekstin fonttikokoa */
+    font-size: 14px; /* Pienennä tekstin fonttikokoa */
     margin-top: 10px; /* Lisää ylimääräinen marginaali paragrafin yläpuolelle */
   }
 
@@ -530,7 +530,7 @@ footer h2 {
   }
   
   .text-container p {
-      font-size: 16px; /* Pienennä tekstin fonttikokoa */
+      font-size: 14px; /* Pienennä tekstin fonttikokoa */
       margin-top: 10px; /* Lisää ylimääräinen marginaali paragrafin yläpuolelle */
   }
 
