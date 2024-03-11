@@ -455,11 +455,11 @@ footer h2 {
   }
 
   .text-container h1 {
-    font-size: 30px; /* Pienennä otsikon fonttikokoa */
+    font-size: 40px; /* Pienennä otsikon fonttikokoa */
   }
 
   .text-container p {
-    font-size: 14px; /* Pienennä tekstin fonttikokoa */
+    font-size: 16px; /* Pienennä tekstin fonttikokoa */
     margin-top: 10px; /* Lisää ylimääräinen marginaali paragrafin yläpuolelle */
   }
 
@@ -526,11 +526,11 @@ footer h2 {
 @media only screen and (max-width: 400px) {
 
   .text-container h1 {
-      font-size: 25px; /* Pienennä otsikon fonttikokoa */
+      font-size: 40px; /* Pienennä otsikon fonttikokoa */
   }
   
   .text-container p {
-      font-size: 9px; /* Pienennä tekstin fonttikokoa */
+      font-size: 16px; /* Pienennä tekstin fonttikokoa */
       margin-top: 10px; /* Lisää ylimääräinen marginaali paragrafin yläpuolelle */
   }
 
